@@ -6,10 +6,9 @@ Atenção:
 Esse arquivo deve ser independente, pois ele será executado sozinho.
 
 Comando para iniciar a instalação:
-cd ~
-yum install php -y
-wget https://raw.githubusercontent.com/controlware/server-scout/main/command/install.php -O install-serverscout.php
-php install-serverscout.php
+yum install php php-posix -y
+wget https://raw.githubusercontent.com/controlware/server-scout/main/command/install.php -O ~/install-serverscout.php
+php ~/install-serverscout.php
 
 
 1. Verificar se ele mesmo ja nao esta instalado, e caso esteja, indica o local e aborta a operacao
@@ -46,8 +45,7 @@ if($user["name"] !== "root"){
 }
 
 // Define os diretorios preferenciais para instalcao
-//$preferred_directories = ["/data", "/etc"];
-$preferred_directories = ["c:/temp"];
+$preferred_directories = ["/data", "/etc"];
 
 // Verifica se ja esta instalado, e caso nao, define diretorio de instalacao
 foreach($preferred_directories as $directory){
