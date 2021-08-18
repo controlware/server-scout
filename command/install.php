@@ -8,7 +8,7 @@ Esse arquivo deve ser independente, pois ele será executado sozinho.
 Comando para iniciar a instalação:
 cd ~
 yum install php -y
-wget ftp://instalacao:123@websac.net/ServerScout/install.php -O install-serverscout.php
+wget https://raw.githubusercontent.com/controlware/server-scout/main/command/install.php -O install-serverscout.php
 php install-serverscout.php
 
 
@@ -37,6 +37,13 @@ Um scout que esta em execucao deve verificar se o PID que esta no arquivo contem
 
 // Define as constantes
 define("PROJECT_NAME", "server-scout");
+
+// Verifica se esta sendo executado como root
+$user = posix_getpwuid(posix_geteuid());
+if($user["name"] !== "root"){
+    write("Usuário atual de execução é \"{$user["name"]}\", o correto deveria ser \"root\".");
+    die();
+}
 
 // Define os diretorios preferenciais para instalcao
 //$preferred_directories = ["/data", "/etc"];
