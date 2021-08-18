@@ -1,0 +1,452 @@
+14:00:14 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":6,"confirmationId":"611a999dd4391"}
+14:00:14 Iniciando trabalho no arquivo: 6.req
+14:00:14 
+14:01:00 Iniciando processo.
+14:01:00 Conectado com sucesso ao servidor socket no host 127.0.0.1 e porta 1987.
+14:01:05 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":7,"confirmationId":"611a99d14dc6e"}
+14:01:06 Iniciando trabalho no arquivo: 7.req
+14:01:06 []
+14:01:06 Trabalho finalizado para o arquivo: 7.req
+14:01:06 Enviando dados para o servidor: {"id":7,"result":{"code":1,"output":[],"success":false},"confirmationId":"611a99d2c1641"}
+14:02:51 Iniciando processo.
+14:02:51 Conectado com sucesso ao servidor socket no host 127.0.0.1 e porta 1987.
+14:02:56 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":8,"confirmationId":"611a9a4073bbb"}
+14:02:57 Iniciando trabalho no arquivo: 8.req
+14:02:57 ["O sistema n\u00e3o pode encontrar o arquivo especificado."]
+14:02:57 Trabalho finalizado para o arquivo: 8.req
+14:02:57 Enviando dados para o servidor: {"id":8,"result":{"code":1,"output":["O sistema n\u00e3o pode encontrar o arquivo especificado."],"success":false},"confirmationId":"611a9a41b88f9"}
+14:03:59 Iniciando processo.
+14:04:00 Conectado com sucesso ao servidor socket no host 127.0.0.1 e porta 1987.
+14:04:08 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":9,"confirmationId":"611a9a88207e0"}
+14:04:08 Iniciando trabalho no arquivo: 9.req
+14:04:09 Trabalho finalizado para o arquivo: 9.req
+14:04:09 Enviando dados para o servidor: {"id":9,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9a8956124"}
+
+14:07:56 Houve uma falha na conexão com o servidor.
+Último erro capturado: 10054 - Foi for�ado o cancelamento de uma conex�o existente pelo host remoto.
+
+14:07:56 Tentando reconectar em 5 segundos. (Tentativa: 1)
+14:08:02 Conectado com sucesso ao servidor socket no host 127.0.0.1 e porta 1987.
+14:08:09 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":10,"confirmationId":"611a9b78d2efc"}
+14:08:09 Iniciando trabalho no arquivo: 10.req
+14:08:09 Trabalho finalizado para o arquivo: 10.req
+14:08:10 Enviando dados para o servidor: {"id":10,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9b7a4d78a"}
+14:08:21 Enviando dados para o servidor: {"id":10,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9b856114c"}
+
+14:08:32 Houve uma falha na conexão com o servidor.
+Último erro capturado: 10053 - Uma conex�o estabelecida foi anulada pelo software no computador host.
+
+14:08:32 Tentando reconectar em 5 segundos. (Tentativa: 1)
+14:08:39 Não foi possível conectar ao servidor socket no host 127.0.0.1 e porta 1987.
+14:08:39 Tentando reconectar em 5 segundos. (Tentativa: 2)
+14:08:46 Não foi possível conectar ao servidor socket no host 127.0.0.1 e porta 1987.
+14:08:46 Tentando reconectar em 5 segundos. (Tentativa: 3)
+14:08:53 Não foi possível conectar ao servidor socket no host 127.0.0.1 e porta 1987.
+14:08:53 Tentando reconectar em 5 segundos. (Tentativa: 4)
+14:09:00 Não foi possível conectar ao servidor socket no host 127.0.0.1 e porta 1987.
+14:09:00 Tentando reconectar em 5 segundos. (Tentativa: 5)
+14:09:07 Não foi possível conectar ao servidor socket no host 127.0.0.1 e porta 1987.
+14:09:07 Tentando reconectar em 15 segundos. (Tentativa: 6)
+14:09:24 Não foi possível conectar ao servidor socket no host 127.0.0.1 e porta 1987.
+14:09:24 Tentando reconectar em 15 segundos. (Tentativa: 7)
+14:09:41 Não foi possível conectar ao servidor socket no host 127.0.0.1 e porta 1987.
+14:09:41 Tentando reconectar em 15 segundos. (Tentativa: 8)
+14:09:57 Conectado com sucesso ao servidor socket no host 127.0.0.1 e porta 1987.
+14:09:57 Enviando dados para o servidor: {"id":10,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9be54f970"}
+14:10:42 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":11,"confirmationId":"611a9c12b67b8"}
+14:10:43 Iniciando trabalho no arquivo: 11.req
+14:10:43 Trabalho finalizado para o arquivo: 11.req
+14:10:43 Enviando dados para o servidor: {"id":11,"result":{"code":0,"output":"        1 arquivo(s) movido(s).","success":true},"confirmationId":"611a9c13d98b4"}
+14:11:12 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":12,"confirmationId":"611a9c3024f0c"}
+14:11:12 Iniciando trabalho no arquivo: 12.req
+14:11:13 Trabalho finalizado para o arquivo: 12.req
+14:11:13 Enviando dados para o servidor: {"id":12,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9c3155622"}
+14:12:10 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":13,"confirmationId":"611a9c6ab02e5"}
+14:12:11 Iniciando trabalho no arquivo: 13.req
+14:12:11 Trabalho finalizado para o arquivo: 13.req
+14:12:11 Enviando dados para o servidor: {"id":13,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9c6be69a0"}
+14:12:23 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":14,"confirmationId":"611a9c76cf510"}
+14:12:23 Iniciando trabalho no arquivo: 14.req
+14:12:23 Trabalho finalizado para o arquivo: 14.req
+14:12:24 Enviando dados para o servidor: {"id":14,"result":{"code":0,"output":"        1 arquivo(s) movido(s).","success":true},"confirmationId":"611a9c7831bd7"}
+
+14:12:33 Houve uma falha na conexão com o servidor.
+Último erro capturado: 10054 - Foi for�ado o cancelamento de uma conex�o existente pelo host remoto.
+
+14:12:33 Tentando reconectar em 5 segundos. (Tentativa: 1)
+14:12:38 Conectado com sucesso ao servidor socket no host 127.0.0.1 e porta 1987.
+14:12:39 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":15,"confirmationId":"611a9c8777c22"}
+14:12:40 Iniciando trabalho no arquivo: 15.req
+14:12:40 Trabalho finalizado para o arquivo: 15.req
+14:12:40 Enviando dados para o servidor: {"id":15,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9c88de95f"}
+14:12:52 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":16,"confirmationId":"611a9c939528b"}
+14:12:52 Iniciando trabalho no arquivo: 16.req
+14:12:52 Trabalho finalizado para o arquivo: 16.req
+14:12:53 Enviando dados para o servidor: {"id":16,"result":{"code":0,"output":"        1 arquivo(s) movido(s).","success":true},"confirmationId":"611a9c952e046"}
+14:16:36 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":17,"confirmationId":"611a9d744a84a"}
+14:16:37 Iniciando trabalho no arquivo: 17.req
+14:16:37 Trabalho finalizado para o arquivo: 17.req
+14:16:37 Enviando dados para o servidor: {"id":17,"result":{"code":0,"output":"        1 arquivo(s) movido(s).","success":true},"confirmationId":"611a9d75c79ed"}
+
+14:18:25 Houve uma falha na conexão com o servidor.
+Último erro capturado: 10054 - Foi for�ado o cancelamento de uma conex�o existente pelo host remoto.
+
+14:18:25 Tentando reconectar em 5 segundos. (Tentativa: 1)
+14:18:31 Conectado com sucesso ao servidor socket no host 127.0.0.1 e porta 1987.
+14:18:35 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":18,"confirmationId":"611a9debd271d"}
+14:18:36 Iniciando trabalho no arquivo: 18.req
+14:18:36 Trabalho finalizado para o arquivo: 18.req
+14:18:37 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9ded1560f"}
+14:18:48 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9df830afe"}
+14:18:59 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9e034a805"}
+14:19:10 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9e0e6204f"}
+14:19:21 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9e197086c"}
+14:19:32 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9e247ea0d"}
+14:19:43 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9e2f93e27"}
+14:19:54 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9e3aaeeaf"}
+14:20:05 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9e45c37f4"}
+14:20:16 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9e50e0460"}
+14:20:28 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9e5c0407c"}
+14:20:39 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9e671a44e"}
+14:20:50 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9e7231c47"}
+14:21:01 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9e7d463ee"}
+14:21:12 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9e885ef8b"}
+14:21:23 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9e936f8a7"}
+14:21:34 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9e9e83e07"}
+14:21:45 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9ea99c27c"}
+14:21:56 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9eb4b0a53"}
+14:22:07 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9ebfc51fa"}
+14:22:18 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9ecad6072"}
+14:22:29 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9ed5ea7fd"}
+14:22:41 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9ee112bb6"}
+14:22:52 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9eec278c4"}
+14:23:03 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9ef73c2b9"}
+14:23:14 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9f0254848"}
+14:23:25 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9f0d74e9b"}
+14:23:36 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9f188ca79"}
+14:23:47 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9f23a122c"}
+14:23:58 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9f2eb5dec"}
+14:24:09 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9f39ca534"}
+14:24:20 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9f44db42d"}
+14:24:31 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9f4feffa8"}
+14:24:43 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9f5b10521"}
+14:24:54 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9f6624df9"}
+14:25:05 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9f7139966"}
+14:25:16 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9f7c51cea"}
+14:25:27 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9f87668a5"}
+14:25:38 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9f927f15d"}
+14:25:49 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9f9d97690"}
+14:26:00 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9fa8abdd1"}
+14:26:11 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9fb3c114a"}
+14:26:22 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9fbed58c8"}
+14:26:33 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9fc9e5a4c"}
+14:26:45 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9fd50a020"}
+14:26:56 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9fe01bbb0"}
+14:27:07 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9feb3001c"}
+14:27:18 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611a9ff6477aa"}
+14:27:29 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa0015d353"}
+14:27:40 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa00c71977"}
+14:27:51 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa017827ee"}
+14:28:02 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa022974d7"}
+14:28:13 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa02da86c8"}
+14:28:24 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa038b8dc6"}
+14:28:35 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa043cb01d"}
+14:28:46 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa04ee248f"}
+14:28:58 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa05a03533"}
+14:29:09 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa06514224"}
+14:29:20 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa07025153"}
+14:29:31 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa07b35dfa"}
+14:29:42 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa0864effd"}
+14:29:53 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa0916728d"}
+14:30:04 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa09c7f726"}
+14:30:15 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa0a7947e7"}
+14:30:26 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa0b2a9302"}
+14:30:37 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa0bdbdfa3"}
+14:30:48 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa0c8d2b1e"}
+14:30:59 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa0d3e3afa"}
+14:31:11 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa0df0062c"}
+14:31:22 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa0ea11495"}
+14:31:33 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa0f52234c"}
+14:31:44 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa10033192"}
+14:31:55 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa10b47ed3"}
+14:32:06 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa1165cc5b"}
+14:32:17 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa12171c54"}
+14:32:28 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa12c8b179"}
+14:32:39 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa137a3682"}
+14:32:50 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa142ba626"}
+14:33:01 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa14dcf2cf"}
+14:33:12 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa158e5b33"}
+14:33:24 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa16411e41"}
+14:33:35 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa16f262b7"}
+14:33:46 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa17a52962"}
+14:33:57 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa18579558"}
+14:34:08 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa1908fcce"}
+14:34:19 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa19ba48f0"}
+14:34:30 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa1a6b9863"}
+14:34:41 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa1b1cdfa6"}
+14:34:52 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa1bce2cbb"}
+14:35:04 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa1c803d15"}
+14:35:15 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa1d31b5bf"}
+14:35:26 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa1de33200"}
+14:35:37 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa1e94c266"}
+14:35:48 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa1f463ec0"}
+14:35:59 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa1ff7bd12"}
+14:36:10 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa20a97717"}
+14:36:21 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa215ab3f3"}
+14:36:32 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa220c2dcb"}
+14:36:43 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa22bda864"}
+14:36:54 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa236e8fc4"}
+14:37:06 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa2420fb89"}
+14:37:17 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa24d278f5"}
+14:37:28 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa25843621"}
+14:37:39 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa2635c72f"}
+14:37:50 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa26e74157"}
+14:38:01 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa2798bdba"}
+14:38:12 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa284a37c4"}
+14:38:23 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa28fba750"}
+14:38:34 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa29ad204f"}
+14:38:45 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa2a5e8e81"}
+14:38:57 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa2b10c522"}
+14:39:08 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa2bc2480f"}
+14:39:19 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa2c734f00"}
+14:39:30 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa2d2433cf"}
+14:39:41 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa2dd57ca7"}
+14:39:52 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa2e86bd94"}
+14:40:03 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa2f3876c1"}
+14:40:14 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa2fe9ef58"}
+14:40:25 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa309b685e"}
+14:40:36 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa314cef73"}
+14:40:47 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa31fe2452"}
+14:40:59 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa32b060a8"}
+14:41:10 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa33619e76"}
+14:41:21 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa3412de19"}
+14:41:32 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa34c41db0"}
+14:41:43 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa35755b69"}
+14:41:54 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa3626ff8e"}
+14:42:05 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa36d834c8"}
+14:42:16 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa37897a7d"}
+14:42:27 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa383b0e02"}
+14:42:38 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa38ec43f9"}
+14:42:49 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa399d61c4"}
+14:43:00 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa3a4deb52"}
+14:43:11 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa3aff2ffb"}
+14:43:23 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa3bb131fc"}
+14:43:34 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa3c62b4ef"}
+14:43:45 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa3d14550e"}
+14:43:56 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa3dc6224f"}
+14:44:07 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa3e777425"}
+14:44:18 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa3f2984de"}
+14:44:29 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa3fdaace1"}
+14:44:40 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa408b8e51"}
+14:44:51 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa413ce4d6"}
+14:45:02 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa41ee10e2"}
+14:45:14 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa42a008ca"}
+14:45:25 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa4351c0c2"}
+14:45:36 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa44039459"}
+14:45:47 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa44b57a62"}
+14:45:58 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa4566adf2"}
+14:46:09 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa46184aaa"}
+14:46:20 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa46c959d3"}
+14:46:31 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa477a504f"}
+14:46:43 Iniciando processo.
+14:46:44 Conectado com sucesso ao servidor socket no host 127.0.0.1 e porta 1987.
+14:46:44 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa484cbceb"}
+14:46:50 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa48aec7bb"}
+14:46:56 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa490f377b"}
+14:47:03 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa49709844"}
+14:47:09 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa49d14135"}
+14:47:15 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa4a323fee"}
+14:47:21 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa4a92bff8"}
+14:47:27 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aa4af39515"}
+
+14:47:33 Houve uma falha na conexão com o servidor.
+Último erro capturado: 10054 - Foi for�ado o cancelamento de uma conex�o existente pelo host remoto.
+
+14:47:33 Tentando reconectar em 5 segundos. (Tentativa: 1)
+14:47:40 Não foi possível conectar ao servidor socket no host 127.0.0.1 e porta 1987.
+14:47:40 Tentando reconectar em 5 segundos. (Tentativa: 2)
+14:47:47 Não foi possível conectar ao servidor socket no host 127.0.0.1 e porta 1987.
+14:47:47 Tentando reconectar em 5 segundos. (Tentativa: 3)
+14:47:54 Não foi possível conectar ao servidor socket no host 127.0.0.1 e porta 1987.
+14:47:54 Tentando reconectar em 5 segundos. (Tentativa: 4)
+14:48:01 Não foi possível conectar ao servidor socket no host 127.0.0.1 e porta 1987.
+14:48:01 Tentando reconectar em 5 segundos. (Tentativa: 5)
+15:16:04 Iniciando processo.
+15:16:06 Não foi possível conectar ao servidor socket no host 127.0.0.1 e porta 1987.
+15:16:06 Tentando reconectar em 5 segundos. (Tentativa: 1)
+15:16:12 Conectado com sucesso ao servidor socket no host 127.0.0.1 e porta 1987.
+15:16:12 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aab6c0eaec"}
+15:16:18 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aab7225964"}
+15:16:24 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aab7836055"}
+15:16:38 Iniciando processo.
+15:16:38 Conectado com sucesso ao servidor socket no host 127.0.0.1 e porta 1987.
+15:16:38 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aab86a440f"}
+15:16:44 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aab8cbcf01"}
+15:16:50 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aab92cd7d9"}
+15:16:56 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aab98e4c48"}
+15:17:00 Iniciando processo.
+15:17:03 Conectado com sucesso ao servidor socket no host 127.0.0.1 e porta 1987.
+15:17:04 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":19,"confirmationId":"611aaba09bdbb"}
+15:17:05 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":20,"confirmationId":"611aaba1222a2"}
+15:17:06 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":21,"confirmationId":"611aaba2265cd"}
+15:17:07 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":22,"confirmationId":"611aaba32e030"}
+15:17:08 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":23,"confirmationId":"611aaba431a8d"}
+15:17:09 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":24,"confirmationId":"611aaba5356c4"}
+15:17:10 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":25,"confirmationId":"611aaba63ba44"}
+15:17:11 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":26,"confirmationId":"611aaba73dc41"}
+15:17:12 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":27,"confirmationId":"611aaba83fbb5"}
+15:17:13 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":28,"confirmationId":"611aaba9454fb"}
+15:17:14 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":29,"confirmationId":"611aabaa47a28"}
+15:17:15 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":30,"confirmationId":"611aabab4d118"}
+15:17:16 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":31,"confirmationId":"611aabac4ee30"}
+15:17:17 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":32,"confirmationId":"611aabad52f44"}
+15:17:19 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":33,"confirmationId":"611aabae53b88"}
+15:17:20 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":34,"confirmationId":"611aabaf54f8b"}
+15:17:21 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":35,"confirmationId":"611aabb057288"}
+15:17:22 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":36,"confirmationId":"611aabb15d1c8"}
+15:17:23 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":37,"confirmationId":"611aabb25ecf0"}
+15:17:24 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":38,"confirmationId":"611aabb360e22"}
+15:17:25 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":39,"confirmationId":"611aabb462f73"}
+15:17:26 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":40,"confirmationId":"611aabb5654b2"}
+15:17:27 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":41,"confirmationId":"611aabb6673ae"}
+15:17:28 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":42,"confirmationId":"611aabb76af51"}
+15:17:29 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":43,"confirmationId":"611aabb86c113"}
+15:17:30 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":44,"confirmationId":"611aabb96d0aa"}
+15:17:31 Enviando dados para o servidor: {"id":18,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabbb35771"}
+15:17:31 Iniciando trabalho no arquivo: 19.req
+15:17:31 Trabalho finalizado para o arquivo: 19.req
+15:17:32 Enviando dados para o servidor: {"id":19,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabbccbcd1"}
+15:17:33 Iniciando trabalho no arquivo: 20.req
+15:17:33 Trabalho finalizado para o arquivo: 20.req
+15:17:34 Enviando dados para o servidor: {"id":20,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabbedd330"}
+15:17:35 Iniciando trabalho no arquivo: 21.req
+15:17:35 Trabalho finalizado para o arquivo: 21.req
+15:17:37 Enviando dados para o servidor: {"id":21,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabc101cae"}
+15:17:37 Iniciando trabalho no arquivo: 22.req
+15:17:37 Trabalho finalizado para o arquivo: 22.req
+15:17:39 Enviando dados para o servidor: {"id":22,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabc31b157"}
+15:17:39 Iniciando trabalho no arquivo: 23.req
+15:17:39 Trabalho finalizado para o arquivo: 23.req
+15:17:40 Enviando dados para o servidor: {"id":23,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabc4b20a7"}
+15:17:41 Iniciando trabalho no arquivo: 24.req
+15:17:41 Trabalho finalizado para o arquivo: 24.req
+15:17:42 Enviando dados para o servidor: {"id":24,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabc6c15b8"}
+15:17:43 Iniciando trabalho no arquivo: 25.req
+15:17:43 Trabalho finalizado para o arquivo: 25.req
+15:17:44 Enviando dados para o servidor: {"id":25,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabc8d39a1"}
+15:17:45 Iniciando trabalho no arquivo: 26.req
+15:17:45 Trabalho finalizado para o arquivo: 26.req
+15:17:47 Enviando dados para o servidor: {"id":26,"result":{"code":0,"output":"        1 arquivo(s) movido(s).","success":true},"confirmationId":"611aabcb080e3"}
+15:17:47 Iniciando trabalho no arquivo: 27.req
+15:17:47 Trabalho finalizado para o arquivo: 27.req
+15:17:49 Enviando dados para o servidor: {"id":27,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabcd1e042"}
+15:17:49 Iniciando trabalho no arquivo: 28.req
+15:17:49 Trabalho finalizado para o arquivo: 28.req
+15:17:50 Enviando dados para o servidor: {"id":28,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabceba25f"}
+15:17:51 Iniciando trabalho no arquivo: 29.req
+15:17:51 Trabalho finalizado para o arquivo: 29.req
+15:17:52 Enviando dados para o servidor: {"id":29,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabd0e58a3"}
+15:17:53 Iniciando trabalho no arquivo: 30.req
+15:17:53 Trabalho finalizado para o arquivo: 30.req
+15:17:55 Enviando dados para o servidor: {"id":30,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabd306437"}
+15:17:55 Iniciando trabalho no arquivo: 31.req
+15:17:55 Trabalho finalizado para o arquivo: 31.req
+15:17:57 Enviando dados para o servidor: {"id":31,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabd517353"}
+15:17:57 Iniciando trabalho no arquivo: 32.req
+15:17:57 Trabalho finalizado para o arquivo: 32.req
+15:17:59 Enviando dados para o servidor: {"id":32,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabd72c584"}
+15:17:59 Iniciando trabalho no arquivo: 33.req
+15:17:59 Trabalho finalizado para o arquivo: 33.req
+15:18:01 Enviando dados para o servidor: {"id":33,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabd9411af"}
+15:18:01 Iniciando trabalho no arquivo: 34.req
+15:18:01 Trabalho finalizado para o arquivo: 34.req
+15:18:02 Enviando dados para o servidor: {"id":34,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabdadb486"}
+15:18:03 Iniciando trabalho no arquivo: 35.req
+15:18:03 Trabalho finalizado para o arquivo: 35.req
+15:18:04 Enviando dados para o servidor: {"id":35,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabdce8718"}
+15:18:05 Iniciando trabalho no arquivo: 36.req
+15:18:05 Trabalho finalizado para o arquivo: 36.req
+15:18:07 Enviando dados para o servidor: {"id":36,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabdf056c4"}
+15:18:07 Iniciando trabalho no arquivo: 37.req
+15:18:07 Trabalho finalizado para o arquivo: 37.req
+15:18:09 Enviando dados para o servidor: {"id":37,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabe11e1d5"}
+15:18:09 Iniciando trabalho no arquivo: 38.req
+15:18:09 Trabalho finalizado para o arquivo: 38.req
+15:18:11 Enviando dados para o servidor: {"id":38,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabe333491"}
+15:18:11 Iniciando trabalho no arquivo: 39.req
+15:18:11 Trabalho finalizado para o arquivo: 39.req
+15:18:13 Enviando dados para o servidor: {"id":39,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabe546e8a"}
+15:18:13 Iniciando trabalho no arquivo: 40.req
+15:18:13 Trabalho finalizado para o arquivo: 40.req
+15:18:15 Enviando dados para o servidor: {"id":40,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabe75d1c3"}
+15:18:15 Iniciando trabalho no arquivo: 41.req
+15:18:16 Trabalho finalizado para o arquivo: 41.req
+15:18:17 Enviando dados para o servidor: {"id":41,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabe90c720"}
+15:18:17 Iniciando trabalho no arquivo: 42.req
+15:18:17 Trabalho finalizado para o arquivo: 42.req
+15:18:19 Enviando dados para o servidor: {"id":42,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabeb21cb1"}
+15:18:19 Iniciando trabalho no arquivo: 43.req
+15:18:19 Trabalho finalizado para o arquivo: 43.req
+15:18:21 Enviando dados para o servidor: {"id":43,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabed392ce"}
+15:18:21 Iniciando trabalho no arquivo: 44.req
+15:18:21 Trabalho finalizado para o arquivo: 44.req
+15:18:23 Enviando dados para o servidor: {"id":44,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aabef3ebf6"}
+15:18:36 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":45,"confirmationId":"611aabfc09061"}
+15:18:37 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":46,"confirmationId":"611aabfc85784"}
+15:18:38 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":47,"confirmationId":"611aabfd89d78"}
+15:18:40 Iniciando trabalho no arquivo: 45.req
+15:18:40 Trabalho finalizado para o arquivo: 45.req
+15:18:40 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":48,"confirmationId":"611aabff90991"}
+15:18:41 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":49,"confirmationId":"611aac0092213"}
+15:18:42 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":50,"confirmationId":"611aac0195c4c"}
+15:18:43 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":51,"confirmationId":"611aac0299ffd"}
+15:18:44 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":52,"confirmationId":"611aac039de3e"}
+15:18:45 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":53,"confirmationId":"611aac04a18ea"}
+15:18:46 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":54,"confirmationId":"611aac05a5fb2"}
+15:18:47 Novos dados recebidos do servidor: {"task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"},"id":55,"confirmationId":"611aac06aade8"}
+15:18:48 Enviando dados para o servidor: {"id":45,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aac08b16d4"}
+15:18:49 Iniciando trabalho no arquivo: 46.req
+15:18:49 Trabalho finalizado para o arquivo: 46.req
+15:18:50 Enviando dados para o servidor: {"id":46,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aac0ac7964"}
+15:18:51 Iniciando trabalho no arquivo: 47.req
+15:18:51 Trabalho finalizado para o arquivo: 47.req
+15:18:52 Enviando dados para o servidor: {"id":47,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aac0cd931d"}
+15:18:53 Iniciando trabalho no arquivo: 48.req
+15:18:53 Trabalho finalizado para o arquivo: 48.req
+15:18:54 Enviando dados para o servidor: {"id":48,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aac0ef058a"}
+15:18:55 Iniciando trabalho no arquivo: 49.req
+15:18:55 Trabalho finalizado para o arquivo: 49.req
+15:18:57 Enviando dados para o servidor: {"id":49,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aac110b47e"}
+15:18:57 Iniciando trabalho no arquivo: 50.req
+15:18:57 Trabalho finalizado para o arquivo: 50.req
+15:18:59 Enviando dados para o servidor: {"id":50,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aac13306d6"}
+15:18:59 Iniciando trabalho no arquivo: 51.req
+15:18:59 Trabalho finalizado para o arquivo: 51.req
+15:19:01 Enviando dados para o servidor: {"id":51,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aac1556ab5"}
+15:19:01 Iniciando trabalho no arquivo: 52.req
+15:19:02 Trabalho finalizado para o arquivo: 52.req
+15:19:02 Enviando dados para o servidor: {"id":52,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aac16ec8ca"}
+15:19:03 Iniciando trabalho no arquivo: 53.req
+15:19:03 Trabalho finalizado para o arquivo: 53.req
+15:19:05 Enviando dados para o servidor: {"id":53,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aac190afeb"}
+15:19:05 Iniciando trabalho no arquivo: 54.req
+15:19:05 Trabalho finalizado para o arquivo: 54.req
+15:19:07 Enviando dados para o servidor: {"id":54,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aac1b1e257"}
+15:19:07 Iniciando trabalho no arquivo: 55.req
+15:19:07 Trabalho finalizado para o arquivo: 55.req
+15:19:09 Enviando dados para o servidor: {"id":55,"result":{"code":1,"output":"O sistema n\u00e3o pode encontrar o arquivo especificado.","success":false},"confirmationId":"611aac1d241f0"}
+
+15:36:04 Houve uma falha na conexão com o servidor.
+Último erro capturado: 10054 - Foi for�ado o cancelamento de uma conex�o existente pelo host remoto.
+
+15:36:04 Tentando reconectar em 5 segundos. (Tentativa: 1)
+15:36:11 Não foi possível conectar ao servidor socket no host 127.0.0.1 e porta 1987.
+15:36:11 Tentando reconectar em 5 segundos. (Tentativa: 2)
+15:36:18 Não foi possível conectar ao servidor socket no host 127.0.0.1 e porta 1987.
+15:36:18 Tentando reconectar em 5 segundos. (Tentativa: 3)
+15:36:25 Não foi possível conectar ao servidor socket no host 127.0.0.1 e porta 1987.
+15:36:25 Tentando reconectar em 5 segundos. (Tentativa: 4)
+15:36:32 Não foi possível conectar ao servidor socket no host 127.0.0.1 e porta 1987.
+15:36:32 Tentando reconectar em 5 segundos. (Tentativa: 5)
+15:36:39 Não foi possível conectar ao servidor socket no host 127.0.0.1 e porta 1987.
+15:36:39 Tentando reconectar em 15 segundos. (Tentativa: 6)

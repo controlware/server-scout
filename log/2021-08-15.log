@@ -1,0 +1,60 @@
+23:31:27 Conectado com sucesso ao servidor socket no host 127.0.0.1 e porta 1987.
+23:31:50 Conectado com sucesso ao servidor socket no host 127.0.0.1 e porta 1987.
+23:31:51 Nova mensagem recebida do servidor: {"id":"1","task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"}}
+23:31:52 Iniciando trabalho no arquivo: 1.req
+23:31:52 Trabalho finalizado!
+23:34:27 Conectado com sucesso ao servidor socket no host 127.0.0.1 e porta 1987.
+23:34:28 Nova mensagem recebida do servidor: {"id":"1","task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"}}
+23:34:28 Iniciando trabalho no arquivo: 1.req
+23:34:28 ""
+23:34:28 Trabalho finalizado!
+23:35:00 Conectado com sucesso ao servidor socket no host 127.0.0.1 e porta 1987.
+
+23:35:18 Houve uma falha na conexão com o servidor.
+Último erro capturado: 10054 - Foi for�ado o cancelamento de uma conex�o existente pelo host remoto.
+
+23:35:18 Tentando reconectar em 5 segundos. (Tentativa: 1)
+23:35:23 Conectado com sucesso ao servidor socket no host 127.0.0.1 e porta 1987.
+23:35:24 Nova mensagem recebida do servidor: {"id":"1","task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"}}
+23:35:50 Conectado com sucesso ao servidor socket no host 127.0.0.1 e porta 1987.
+23:35:51 Iniciando trabalho no arquivo: 1.req
+23:35:51 ""
+23:35:51 Trabalho finalizado!
+23:35:51 Nova mensagem recebida do servidor: {"id":"1","task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"}}
+23:35:52 Iniciando trabalho no arquivo: 1.req
+23:35:52 ""
+23:35:52 Trabalho finalizado!
+23:36:05 Iniciando trabalho no arquivo: 1.req
+23:36:05 ""
+23:36:05 Trabalho finalizado!
+23:36:18 Iniciando trabalho no arquivo: 1.req
+23:36:18 "        1 arquivo(s) movido(s)."
+23:36:18 Trabalho finalizado!
+23:38:54 Conectado com sucesso ao servidor socket no host 127.0.0.1 e porta 1987.
+23:39:02 Iniciando trabalho no arquivo: 1.req
+23:39:02 {"output":[],"code":1}
+23:39:02 []
+23:39:02 Trabalho finalizado!
+23:39:24 Iniciando trabalho no arquivo: 1.req
+23:39:25 {"output":["        1 arquivo(s) movido(s)."],"code":0}
+23:39:25 ["        1 arquivo(s) movido(s)."]
+23:39:25 Trabalho finalizado!
+23:49:07 Conectado com sucesso ao servidor socket no host 127.0.0.1 e porta 1987.
+23:49:12 Iniciando trabalho no arquivo: 1.req
+23:49:12 Trabalho finalizado para o arquivo: 1.req
+23:49:37 Conectado com sucesso ao servidor socket no host 127.0.0.1 e porta 1987.
+23:50:05 Iniciando trabalho no arquivo: 1.req
+23:50:05 Trabalho finalizado para o arquivo: 1.req
+
+23:51:28 Houve uma falha na conexão com o servidor.
+Último erro capturado: 10054 - Foi for�ado o cancelamento de uma conex�o existente pelo host remoto.
+
+23:51:28 Tentando reconectar em 5 segundos. (Tentativa: 1)
+23:51:35 Não foi possível conectar ao servidor socket no host 127.0.0.1 e porta 1987.
+23:51:35 Tentando reconectar em 5 segundos. (Tentativa: 2)
+23:51:42 Não foi possível conectar ao servidor socket no host 127.0.0.1 e porta 1987.
+23:51:42 Tentando reconectar em 5 segundos. (Tentativa: 3)
+23:52:03 Conectado com sucesso ao servidor socket no host 127.0.0.1 e porta 1987.
+23:52:04 Nova mensagem recebida do servidor: {"id":"1","task":"execute-command","data":{"command":"move C:\\temp\\a\\teste.txt C:\\temp\\b\\teste.txt"}}
+23:52:05 Iniciando trabalho no arquivo: 1.req
+23:52:05 Trabalho finalizado para o arquivo: 1.req

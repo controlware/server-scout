@@ -1,0 +1,32 @@
+Processo de requisições:
+
+SAST cria em seu próprio banco de dados uma requisição para um servidor específico.
+
+Os servidores consultam de tempo em tempo em uma API do SAST, verificando se existe uma nova requisição.
+O arquivo executado será o '/command/check-server-requests.php', configurado no crontab para executar a cada 1 minuto.
+
+Se houve uma requisição nova, ele vai receber e gravar um arquivo para cada requisição em '/request/pending'.
+O nome do arquivo deve ser sempre o ID da requisição vinda do SAST, e esse mesmo nome deve ser usado em todas as
+manipulações do arquivo da requisição em outros diretórios.
+
+Um processo configurado no crontab fará a execução das requisições, sendo executado a cada 1 minuto.
+Cada execução vai pegar o primeiro arquivo da pasta '/request/pending' e mover para a pasta '/request/working'.
+O arquivo executado será o '/command/work-on-requests.php', configurado no crontab para executar a cada 1 minuto.
+
+Durante a execução deverá ser feito um log detalhado para que possa ser analisado em uma possível falha durante execução.
+O log deve ter um arquivo separado para cada requisicao, em '/log/request', com o mesmo nome do arquivo da requisição.
+
+Quando houve um erro, será criado um arquivo no diretório '/request/done' identificando que houve um erro e contendo
+informações sobre esse erro.
+
+Se o comando for finalizado com sucesso, vai criado um arquivo em '/request/done' identificando que finalizou com sucesso
+e retornando os dados necessários sobre a execução.
+
+Por último deverá ser executado o arquivo '/command/send-requests-results.php'.
+Esse arquivo fará o envio dos resultados das requisições para o servidor do SAST.
+
+
+
+
+Processo de atualização automática:
+
