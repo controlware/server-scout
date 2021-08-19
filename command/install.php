@@ -63,9 +63,19 @@ if(!defined("PROJECT_PATH")){
     die();
 }
 
-// Verifica a versao do PHP
-$a = execute("php -v | grep ^PHP | cut -d' ' -f2");
-var_dump($a);
+// Verifica se a versao do PHP eh menor que 7
+if(version_compare(phpversion(), "7.0.0", "<")){
+    // Remove o PHP antigo
+    execute("yum erase php* -y");
+
+    // Instala o PHP 7.4
+    execute("yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm -y");
+    execute("yum install https://rpms.remirepo.net/enterprise/remi-release-7.rpm -y");
+    execute("yum install yum-utils -y");
+    execute("yum-config-manager --enable remi-php74");
+    execute("yum update -y");
+    execute("yum install php php-cli -y");
+}
 
 
 // Funcao que da saidas de texto
@@ -73,8 +83,20 @@ function write($text){
     echo "{$text}\n";
 }
 
-function execute($command){
-    exec($command, $output);
-    $output = implode("\n", $output);
+function execute($command, $dieOnError = true){
+    if(is_array($command)){
+        $command = implode("\n", $command);
+    }
+    exec($command." 2>&1", $output, $code);
+    if(is_array($output)){
+        $output = implode("\n", $output);
+    }
+    $error = ($code > 0);
+    
+    if($error && $dieOnError){
+        write("Falha ao executar o comando:\n{$command}\n\nSaída:\n{$output}");
+        die();
+    }
+
     return $output;
 }
