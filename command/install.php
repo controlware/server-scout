@@ -62,6 +62,7 @@ if(!defined("PROJECT_PATH")){
     write("Não foi possível definir o diretório de instalação do Server Scout.\nDiretórios verificados: ".implode(", ", $preferred_directories));
     die();
 }
+write("Diretório de instalação: ".PROJECT_PATH);
 
 // Verifica se a versao do PHP eh menor que 7
 if(version_compare(phpversion(), "7.0.0", "<")){
@@ -84,6 +85,7 @@ function write($text){
 }
 
 function execute($command, $dieOnError = true){
+    write("Executando comando: {$command}");
     if(is_array($command)){
         $command = implode("\n", $command);
     }
@@ -94,7 +96,11 @@ function execute($command, $dieOnError = true){
     $error = ($code > 0);
     
     if($error && $dieOnError){
-        write("Falha ao executar o comando:\n{$command}\n\nSaída:\n{$output}");
+        write("Falha ao executar o comando:\n{$output}");
+        var_dump([
+            "code" => $code,
+            "output" => $output
+        ]);
         die();
     }
 
