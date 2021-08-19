@@ -7,7 +7,7 @@ Esse arquivo deve ser independente, pois ele será executado sozinho.
 
 Comando para iniciar a instalação:
 yum install php php-posix -y
-wget https://raw.githubusercontent.com/controlware/server-scout/main/command/install.php -O ~/install-serverscout.php
+wget --no-cache --no-cookies https://raw.githubusercontent.com/controlware/server-scout/main/command/install.php -O ~/install-serverscout.php
 php ~/install-serverscout.php
 
 
@@ -75,5 +75,6 @@ function write($text){
 
 function execute($command){
     exec($command, $output);
+    $output = implode("\n", $output);
     return $output;
 }
