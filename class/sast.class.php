@@ -95,14 +95,14 @@ final class SAST {
 	}
 
 	private function reconnectToServer($attempts = 1){
-		// Verifica quanto tempo deve esperar para reconectar
-		if($attempts <= 5){ // Até 5 tentativas
-			$sleepSeconds = 5;
-		}elseif($attempts <= 50){ // Até 50 tentativas
-			$sleepSeconds = 15;
-		}else{ // Mais de 50 tatativas
-			$sleepSeconds = 60;
+		// Verifica se deve encerrar o processo
+		if($attempts >= 50){
+			Log::write("Server Scout encerrado por falta de comunicação.");
+			die();
 		}
+
+		// Verifica quanto tempo deve esperar para reconectar
+		$sleepSeconds = 5;
 		Log::write("Tentando reconectar em {$sleepSeconds} segundos. (Tentativa: {$attempts})");
 		sleep($sleepSeconds);
 
