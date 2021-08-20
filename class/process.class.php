@@ -5,7 +5,7 @@ final class Process {
     private static $pidFileName = __DIR__."/../temporary/running.pid";
 
     static public function currentPID(){
-        return getmypid();
+        return (int) getmypid();
     }
 
     static public function processIsRunning($pid){
@@ -23,7 +23,7 @@ final class Process {
         if(!file_exists(self::$pidFileName)){
             return null;
         }
-        return file_get_contents(self::$pidFileName);
+        return (int) file_get_contents(self::$pidFileName);
     }
 
     static public function scoutIsRunning(){

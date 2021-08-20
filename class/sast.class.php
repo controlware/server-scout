@@ -17,6 +17,11 @@ final class SAST {
 
 		// Roda o processo infinitamente
 		while(true){
+			// Verifica se de fato ele deve estar rodando
+			if(Process::currentPID() !== Process::lastRegistredPID()){
+				die();
+			}
+
 			// Verifica se tem alguma mensagem enviada pelo servidor
 			$this->verifyServerIncomingRequests();
 
