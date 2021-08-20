@@ -50,7 +50,7 @@ final class SAST {
 
 		// Inicia conexao com o servidor
 		$this->socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
-		if(!socket_connect($this->socket, $this->socketHost, $this->socketPort) || !socket_set_nonblock($this->socket)){
+		if(!@socket_connect($this->socket, $this->socketHost, $this->socketPort) || !@socket_set_nonblock($this->socket)){
 			Log::write("Não foi possível conectar ao servidor socket no host {$this->socketHost} e porta {$this->socketPort}.");
 			return false;
 		}
