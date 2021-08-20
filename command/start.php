@@ -12,7 +12,7 @@ Um scout que esta em execucao deve verificar se o PID que esta no arquivo contem
 
 require_once(__DIR__."/../default/handling.php");
 
-if(Process::verifyIfIsRunning()){
+if(Process::scoutIsRunning()){
     die();
 }
 Process::registerThatIsRunning();
