@@ -2,7 +2,7 @@
 
 final class SAST {
 
-	private $socketHost = "127.0.0.1";
+	private $socketHost = "10.0.0.24";
     private $socketPort = 1987;
 	private $socket;
 
