@@ -10,28 +10,6 @@ yum install php php-posix -y
 wget --no-cache --no-cookies https://raw.githubusercontent.com/controlware/server-scout/main/command/install.php -O ~/install-serverscout.php
 php ~/install-serverscout.php
 
-
-1. Verificar se ele mesmo ja nao esta instalado, e caso esteja, indica o local e aborta a operacao
-
-2. Verificar versao instalada do PHP, desinstalar a antiga e instalar a atual
-
-3. Verificar se o git esta instalado, e instalar caso não esteja
-
-4. Verificar qual o local ideal para se instalar
-
-5. Executa comando do git para baixar repositorio
-
-6. Cria crontab que verifica se o scout esta em execuxao, ele mesmo ja faz a primeira execucao
-
-
-Como verificar se está em execução:
-- Sempre que o programa executar, ele deve capturar o próprio PID
-- Esse PID devera ser gravado num arquivo dentro do projeto
-- Quando o crontab executar o programa, o programa deve verifciar esse arquivo, que contem o PID, e verificar se o processo ainda esta ativo
-
-
-Um scout que esta em execucao deve verificar se o PID que esta no arquivo contem seu proprio PID, e caso nao seja, ele deve se encerrar sozinho
-
 */
 
 // Define as constantes
