@@ -43,6 +43,9 @@ final class Request {
                 $result = Shell::execute($request["data"]["command"]);
                 $request["result"] = $result;
                 break;
+            case "update":
+                $result = ["success" => Updater::updateServerScout()];
+                break;
             default:
                 Log::write("Tipo de tarefa não identificado: {$request["task"]}");
                 return false;

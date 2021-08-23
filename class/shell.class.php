@@ -2,18 +2,23 @@
 
 final class Shell {
 
-    public static function execute($command){
-        if(is_array($command)){
-            $command = implode("\n", $command);
+    public static function execute($commands){
+        if(!is_array($commands)){
+            $commands = [$commands];
         }
-        exec($command." 2>&1", $output, $code);
-        if(is_array($output)){
-            $output = implode("\n", $output);
+        $code = $output = null;
+        $success = false;
+        foreach($commands as $command){
+            exec($command." 2>&1", $output, $code);
+            if(is_array($output)){
+                $output = implode("\n", $output);
+            }
+            $success = !($code > 0);
         }
         return [
             "code" => $code,
             "output" => $output,
-            "success" => !($code > 0)
+            "success" => $success
         ];
     }
 
