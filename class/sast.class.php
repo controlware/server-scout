@@ -183,7 +183,7 @@ final class SAST {
 
 			// Verifica se sao dados de uma requisicao
 			$data = json_decode($data, true);
-			if($data === false || !$data["id"] || !$data["task"] || !$data["confirmationId"]){
+			if(!$data || !$data["id"] || !$data["task"] || !$data["confirmationId"]){
 				return false;
 			}
 			
