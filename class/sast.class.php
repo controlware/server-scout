@@ -184,6 +184,7 @@ final class SAST {
 			// Verifica se sao dados de uma requisicao
 			$data = json_decode($data, true);
 			if(!$data || !$data["id"] || !$data["task"] || !$data["confirmationId"]){
+				Log::write("Requisição deve conter os campos: id, task, confirmationId.");
 				return false;
 			}
 			
