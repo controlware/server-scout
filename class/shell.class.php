@@ -31,7 +31,7 @@ final class Shell {
     }
 
     public static function isWindows(){
-        $windir = ($_SERVER["windir"] ?? $_SERVER["WINDIR"]);
+        $windir = ($_SERVER["windir"] ?? $_SERVER["WINDIR"] ?? "");
         return (strpos(strtolower($windir), "windows") !== false);
     }
 

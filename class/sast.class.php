@@ -132,7 +132,7 @@ final class SAST {
 			$message = socket_read($this->socket, 1024);
 			$json = json_decode($message, true);
 			// Verifica se o servidor confirmou o recebimento
-			if($json["confirmationId"] === $confirmationId){
+			if(isset($json["confirmationId"]) && $json["confirmationId"] === $confirmationId){
 				return true;
 			}
 			usleep(500000); // 0,5s
@@ -150,7 +150,7 @@ final class SAST {
 				// Captura os dados da requisicao e mantem apenas o 'id' e o 'result'
 				$data = file_get_contents("{$dirname}/{$filename}");
 				$data = json_decode($data, true);
-				$data = ["id" => $data["id"], "result" => $data["result"]];
+				$data = ["id" => $data["id"], "result" => ($data["result"] ?? null)];
 				// Envia os dados para o servidor
 				if($this->sendDataToServer($data)){
 					unlink("{$dirname}/{$filename}");
