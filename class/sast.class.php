@@ -175,8 +175,11 @@ final class SAST {
 	private function verifyServerIncomingRequests(){
 		while(true){
 			// Verifica se chegou dados do servidor
-			$data = socket_read($this->socket, 1024);
-			if(!$data){
+			$data = "";
+			while($input = socket_read($this->socket, 1024)){
+				$data .= $input;
+			}
+			if(strlen($data) === 0){
 				return false;
 			}
 			Log::write("Novos dados recebidos do servidor: {$data}");
