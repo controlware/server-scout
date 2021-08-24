@@ -1,5 +1,8 @@
 <?php
 
+// Inclusao dos arquivos padroes
+require_once(__DIR__."/function.php");
+
 // Auto-register das classes
 spl_autoload_register(function($classname){
     $filename = strtolower($classname);

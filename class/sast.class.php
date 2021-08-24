@@ -60,7 +60,7 @@ final class SAST {
 		$connected = null;
 		$i = 0;
 		while($i++ < 10){
-			$message = socket_read($this->socket, 1024);
+			$message = socket_read_all($this->socket);
 			$json = json_decode($message, true);
 			// Verifica se o servidor confirmou o recebimento
 			if(isset($json["connected"])){
@@ -129,7 +129,7 @@ final class SAST {
 		// Verifica a confirmacao que o servidor recebeu a resposta
 		$i = 0;
 		while($i++ < 10){
-			$message = socket_read($this->socket, 1024);
+			$message = socket_read_all($this->socket);
 			$json = json_decode($message, true);
 			// Verifica se o servidor confirmou o recebimento
 			if(isset($json["confirmationId"]) && $json["confirmationId"] === $confirmationId){
@@ -175,10 +175,7 @@ final class SAST {
 	private function verifyServerIncomingRequests(){
 		while(true){
 			// Verifica se chegou dados do servidor
-			$data = "";
-			while($input = socket_read($this->socket, 1024)){
-				$data .= $input;
-			}
+			$data = socket_read_all($this->socket);
 			if(strlen($data) === 0){
 				return false;
 			}
