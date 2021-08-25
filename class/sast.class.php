@@ -165,7 +165,9 @@ final class SAST {
 	}
 
 	private function verifyServerConnection(){
-		if(socket_write($this->socket, "", 1) === false){
+		
+		//if(socket_write($this->socket, "", 1) === false){
+		if(socket_read($this->socket, 1) === ""){
 			// Registra o ultimo erro
 			$error = socket_last_error($this->socket);
 			$error = trim("{$error} - ".socket_strerror($error));
