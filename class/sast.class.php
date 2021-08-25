@@ -18,9 +18,7 @@ final class SAST {
 		// Roda o processo infinitamente
 		while(true){
 			// Verifica se de fato ele deve estar rodando
-			if(Process::currentPID() !== Process::lastRegistredPID()){
-				die();
-			}
+			$this->verifyIfKeepRunning();
 
 			// Verifica se tem alguma mensagem enviada pelo servidor
 			$this->verifyServerIncomingRequests();
@@ -156,6 +154,13 @@ final class SAST {
 					unlink("{$dirname}/{$filename}");
 				}
 			}
+		}
+	}
+
+	private function verifyIfKeepRunning(){
+		if(Process::currentPID() !== Process::lastRegistredPID()){
+			socket_close($this->socket);
+			die();
 		}
 	}
 
