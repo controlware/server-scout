@@ -58,7 +58,10 @@ if(version_compare(phpversion(), "7.0.0", "<")){
 }
 
 // Instala o GIT, caso nao esteja instalado ainda
-execute("yum install git -y");
+$result = execute("yum list installed git", false);
+if(strpos(strtolower($result), "no matching packages") !== false){
+    $result = execute("yum install git -y");
+}
 
 // Baixa o projeto no diretorio escolhido
 execute("git clone https://github.com/controlware/server-scout.git \"".PROJECT_PATH."\"");
