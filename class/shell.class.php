@@ -9,6 +9,8 @@ final class Shell {
         $code = $output = null;
         $success = false;
         foreach($commands as $command){
+            $command = html_entity_decode($command, ENT_QUOTES);
+            Log::write("Comando: {$command}");
             exec($command." 2>&1", $output, $code);
             if(is_array($output)){
                 $output = implode("\n", $output);
