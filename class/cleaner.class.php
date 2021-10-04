@@ -66,7 +66,8 @@ final class Cleaner {
             $files = scandir($directory);
             foreach($files as $file){
                 if(is_dir("{$directory}/{$file}") && !in_array($file, $ignore) && !in_array($file, $databases)){
-                    Log::write("Remover diretório: {$directory}/{$file}");
+                    Log::write("Removendo diretório: {$directory}/{$file}");
+                    Shell::execute("rm -Rf \"{$directory}/{$file}\"");
                 }
             }
         }
