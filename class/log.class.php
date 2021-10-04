@@ -12,6 +12,7 @@ final class Log {
         echo $text;
 		
         $dirname = __DIR__."/../log/";
+        if(!is_dir($dirname)) mkdir($dirname);
         $file = fopen($dirname.date("Y-m-d").".log", "a+");
         fwrite($file, $text);
         fclose($file);
