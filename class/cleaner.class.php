@@ -73,6 +73,7 @@ final class Cleaner {
                 }
             }
         }
+        unset($postgresql);
         return true;
     }
 
