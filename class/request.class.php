@@ -38,14 +38,20 @@ final class Request {
         
         // Identifica a tarefa
         switch($request["task"]){
+            // Limpa o servidor
+            case "clean-server":
+                $request["result"] = ["success" => Cleaner::cleanAll()];
+                break;
             // Executa um comando comum no SO
             case "execute-command":
                 $result = Shell::execute($request["data"]["command"]);
                 $request["result"] = $result;
                 break;
+            // Atualiza o ServerScout
             case "update":
                 $request["result"] = ["success" => Updater::updateServerScout()];
                 break;
+            // Comando nao identificado
             default:
                 Log::write("Tipo de tarefa não identificado: {$request["task"]}");
                 return false;
