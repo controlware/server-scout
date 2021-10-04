@@ -45,6 +45,8 @@ final class Cleaner {
             $commands[] = "find {$comunica}/*/*/*/*/IMPORTADO/* -type d ! -mtime -30 -exec rm -Rf {} +;";
             $commands[] = "find {$comunica} -name \"*.exe\" -delete";
             $commands[] = "rm -f {$comunica}/*.TXT";
+            $commands[] = "rm -f {$comunica}/*.xml";
+            $commands[] = "rm -f {$comunica}/*.pdf";
         }
     
         foreach($commands as $command){
