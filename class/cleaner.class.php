@@ -59,6 +59,7 @@ final class Cleaner {
     static public function cleanRemovedCustomers(){
         $postgresql = new PostgreSQL();
         $databases = $postgresql->listDataBases();
+        unset($postgresql);
         if(!is_array($databases) || count($databases) == 0){
             return false;
         }
@@ -73,7 +74,6 @@ final class Cleaner {
                 }
             }
         }
-        unset($postgresql);
         return true;
     }
 
