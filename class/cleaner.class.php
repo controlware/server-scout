@@ -32,6 +32,7 @@ final class Cleaner {
             $commands[] = "rm -Rf {$htdocs}/*/temp/*.pdf";
             $commands[] = "rm -f {$htdocs}/*/temp/201*";
             $commands[] = "rm -f {$htdocs}/*/temp/202*";
+            $commands[] = "find {$htdocs}/*/temp/saurus -type f -delete";
         }
         
         $arr_comunica = ["/home/publico/comunica", "/data/comunica"];
