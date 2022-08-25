@@ -51,6 +51,10 @@ final class Request {
             case "update":
                 $request["result"] = ["success" => Updater::updateServerScout()];
                 break;
+            // Atualiza todos os WebSacs do servidor
+            case "websac-update":
+                $request["result"] = ["success" => WebSac::updateAll()];
+                break;
             // Comando nao identificado
             default:
                 Log::write("Tipo de tarefa não identificado: {$request["task"]}");
