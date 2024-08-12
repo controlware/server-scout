@@ -43,6 +43,7 @@ final class WebSac {
             $connection = $postgresql->connection($database);
             $res = $connection->query("SELECT COUNT(*) FROM pg_catalog.pg_tables WHERE tablename = 'historico'");
             $count = $res->fetchColumn();
+            echo $database.": ".$count."\n";
             if($count > 0){
                 $connection->query("TRUNCATE TABLE historico");
             }
