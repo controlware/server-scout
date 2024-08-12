@@ -4,6 +4,7 @@ final class PostgreSQL {
 
     private $connection;
     private $password;
+    private $dbname;
 
     public function __construct(){
         $this->password = (Shell::isWindows() ? "postgres" : "Controlware@1987");
@@ -11,6 +12,9 @@ final class PostgreSQL {
     }
 
     public function connection($dbname = "postgres"){
+        if($this->dbname !== $dbname){
+            $this->connection = null;
+        }
         if(is_object($this->connection)){
             if(!$this->connection->query("SELECT current_timestamp")){
                 unset($this->connection);
@@ -23,6 +27,7 @@ final class PostgreSQL {
                 return false;
             }
         }
+        $this->dbname = $dbname;
         return $this->connection;
     }
 
