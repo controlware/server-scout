@@ -10,14 +10,14 @@ final class PostgreSQL {
         $this->verifyEnvironment();
     }
 
-    public function connection(){
+    public function connection($dbname = "postgres"){
         if(is_object($this->connection)){
             if(!$this->connection->query("SELECT current_timestamp")){
                 unset($this->connection);
             }
         }
         if(!is_object($this->connection)){
-            $this->connection = new PDO("pgsql:host=127.0.0.1 port=5432 dbname=postgres user=postgres password={$this->password}");
+            $this->connection = new PDO("pgsql:host=127.0.0.1 port=5432 dbname={$dbname} user=postgres password={$this->password}");
             if(!is_object($this->connection)){
                 Log::write("Houve uma falha ao conectar com o banco de dados.");
                 return false;

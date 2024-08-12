@@ -47,6 +47,10 @@ final class Request {
                 $result = Shell::execute($request["data"]["command"]);
                 $request["result"] = $result;
                 break;
+            // Executa truncate na tabela historico de todos os clientes
+            case "truncate-history":
+                $request["result"] = ["success" => WebSac::truncateAllHistory()];
+                break;
             // Atualiza o ServerScout
             case "update":
                 $request["result"] = ["success" => Updater::updateServerScout()];

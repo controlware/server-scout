@@ -35,6 +35,20 @@ final class WebSac {
         return $websacDirectories;
     }
 
+    // Executa um truncate na tabela historico de todos os clientes
+    static public function truncateAllHistory(){
+        $postgresql = new PostgreSQL();
+        $databases = $postgresql->listDataBases();
+        foreach($databases as $database){
+            $connection = $postgresql->connection($database);
+            $res = $connection->query("SELECT COUNT(*) FROM pg_catalog.pg_tables WHERE tablename = 'historico'");
+            $count = $res->fetchColumn();
+            if($count > 0){
+                $connection->query("TRUNCATE TABLE historico");
+            }
+        }
+    }
+
     // Atualiza todos os WebSacs
     static public function updateAll(){
         $websacList = self::listWebSacDirectories();
