@@ -47,6 +47,7 @@ final class WebSac {
                 $connection->query("TRUNCATE TABLE historico");
             }
         }
+        return true;
     }
 
     // Atualiza todos os WebSacs
